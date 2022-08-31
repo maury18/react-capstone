@@ -3,10 +3,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 const Navbar = () => (
   <nav className="navbar">
     <ul className="navbar-searchbar">
-      <li><h2>Search your amiibo!</h2></li>
-      <li>
-        <AiOutlineSearch className="navbar-searchbar__icon" />
-      </li>
+      <li><h2 className="navbar-heading">Search your nintendo character</h2></li>
     </ul>
   </nav>
 );

@@ -47,8 +47,8 @@ const Home = () => {
       <div className="header">
         <img src={logo} alt="All amiibos" className="header-image" />
         <p className="header-text">
-          Welcome! Select a category to filter with the search bar
-          below and see all the information available about any amiibo!
+          Select a category to filter with the search bar
+          below and see all the information available about any character.
         </p>
         <select className="header-filter" onChange={filterAmiibos}>
           <option value="all">All Game Series</option>
